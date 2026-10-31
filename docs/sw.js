@@ -1,6 +1,6 @@
 // Service worker: precaches the app shell + tariff data so the tools work offline.
 // Bump VERSION whenever files in docs/ change so clients pick up the new build.
-const VERSION = "ct-pwa-v2";
+const VERSION = "ct-pwa-v3";
 const SHELL = [
   "./",
   "index.html",
@@ -20,7 +20,7 @@ const SHELL = [
   "icons/icon-192.png",
   "icons/icon-512.png",
   "icons/apple-touch-icon.png",
-  "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js",
+  "vendor/supabase-2.45.4.js",
 ];
 
 self.addEventListener("install", (event) => {

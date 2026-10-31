@@ -3,6 +3,8 @@
 import { SUPABASE_URL, SUPABASE_ANON_KEY, isSupabaseConfigured } from "./config.js";
 
 export const configured = isSupabaseConfigured();
+/** False when vendor/supabase-*.js failed to load (e.g. a content blocker); the app shows a reload notice. */
+export const libraryLoaded = !!window.supabase?.createClient;
 export const sb = configured && window.supabase
   ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
       auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },

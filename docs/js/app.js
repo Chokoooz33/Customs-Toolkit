@@ -167,6 +167,7 @@ async function render() {
   window.scrollTo(0, 0);
   applyDocumentLang();
   if (!cloud.configured) return renderNotConfigured();
+  if (!cloud.libraryLoaded) return renderLibraryMissing();
   if (app.recovering) return renderRecovery();
   if (!app.session) return renderAuth();
   if (!app.settings.service_area) return renderServiceSelection();
@@ -232,6 +233,16 @@ function renderNotConfigured() {
     <div class="notice">${icon("database", 20)}<div><b>${esc(t("auth_not_configured_title"))}</b><br>${esc(t("auth_not_configured_desc"))}</div></div>
   </div>`;
   bindLangToggle();
+}
+
+function renderLibraryMissing() {
+  tabbar.classList.add("hidden");
+  root.innerHTML = `${langToggle()}<div class="auth-wrap">${brandHero()}
+    <div class="notice error">${icon("alert", 20)}<div>${esc(t("auth_library_missing"))}</div></div>
+    <button class="btn block" data-reload>${icon("refresh", 18)} ${esc(t("reload"))}</button>
+  </div>`;
+  bindLangToggle();
+  $("[data-reload]").addEventListener("click", () => location.reload());
 }
 
 function passwordField(name, label, autocomplete) {
