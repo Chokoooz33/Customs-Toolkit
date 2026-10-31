@@ -1,6 +1,6 @@
 // Service worker: precaches the app shell + tariff data so the tools work offline.
 // Bump VERSION whenever files in docs/ change so clients pick up the new build.
-const VERSION = "ct-pwa-v1";
+const VERSION = "ct-pwa-v2";
 const SHELL = [
   "./",
   "index.html",
