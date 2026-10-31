@@ -1,0 +1,376 @@
+{
+  "datasetFile": "oman_tariff_2026.json",
+  "pdfPages": 315,
+  "totalRecords": 14369,
+  "uniqueNormalizedCodes": 14317,
+  "duplicateNormalizedCodes": 6,
+  "duplicateRecordOccurrences": 52,
+  "missingArabicDescriptions": 7,
+  "missingEnglishDescriptions": 2,
+  "missingDutyRate": 149,
+  "prohibitedRecords": 94,
+  "restrictedRecords": 0,
+  "normalRecords": 14275,
+  "duplicateCodes": {
+    "210690990901": [
+      {
+        "id": "210690990901-p048-01",
+        "sourcePage": 48,
+        "descriptionEnglish": "Foods prepared for medical conditions",
+        "descriptionArabic": "األغذية المعدة للحاالت المرضية"
+      },
+      {
+        "id": "210690990901-p048-02",
+        "sourcePage": 48,
+        "descriptionEnglish": "Food for children prepared for medical",
+        "descriptionArabic": "أغذية لألطفال المعدة للحاالت المرضية"
+      }
+    ],
+    "293353000901": [
+      {
+        "id": "293353000901-p094-01",
+        "sourcePage": 94,
+        "descriptionEnglish": "Allobarbital (INN) and its salts for",
+        "descriptionArabic": "ألوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-02",
+        "sourcePage": 94,
+        "descriptionEnglish": "Amobarbital (INN) and its salts for",
+        "descriptionArabic": "أمـوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-03",
+        "sourcePage": 94,
+        "descriptionEnglish": "Barbital (INN) and its salts for pharmaceutical",
+        "descriptionArabic": "باربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-04",
+        "sourcePage": 94,
+        "descriptionEnglish": "Butalbital (INN) and its salts for pharmaceutical",
+        "descriptionArabic": "بيوتالبيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-05",
+        "sourcePage": 94,
+        "descriptionEnglish": "Butobarbital (INN) and its salts for",
+        "descriptionArabic": "بيوتوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-06",
+        "sourcePage": 94,
+        "descriptionEnglish": "Cyclobarbital (INN) and its salts for",
+        "descriptionArabic": "سيكلوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-07",
+        "sourcePage": 94,
+        "descriptionEnglish": "Methylphenobarbital (INN) and its salts for",
+        "descriptionArabic": "ميثيل فينوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-08",
+        "sourcePage": 94,
+        "descriptionEnglish": "Pentobarbital (INN) and its salts for",
+        "descriptionArabic": "بنتوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-09",
+        "sourcePage": 94,
+        "descriptionEnglish": "Phenobarbital (INN) and its salts for",
+        "descriptionArabic": "فينوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-10",
+        "sourcePage": 94,
+        "descriptionEnglish": "Scipiobarbital (INN) and its salts for",
+        "descriptionArabic": "سكبيوتاباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-11",
+        "sourcePage": 94,
+        "descriptionEnglish": "Secobarbital (INN) and its salts for",
+        "descriptionArabic": "سيكوباربيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293353000901-p094-12",
+        "sourcePage": 94,
+        "descriptionEnglish": "Phenylbutaline (INN) and its salts for",
+        "descriptionArabic": "فينيل بيتال ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      }
+    ],
+    "293355000901": [
+      {
+        "id": "293355000901-p094-01",
+        "sourcePage": 94,
+        "descriptionEnglish": "Loprazolium (INN) and its salts for",
+        "descriptionArabic": "لوبرازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293355000901-p095-02",
+        "sourcePage": 95,
+        "descriptionEnglish": "Megluqualone (INN) and its salts for",
+        "descriptionArabic": "مكلوكوالون ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293355000901-p095-03",
+        "sourcePage": 95,
+        "descriptionEnglish": "Methaqualone (INN) and its salts for",
+        "descriptionArabic": "ميثاكوالون ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293355000901-p095-04",
+        "sourcePage": 95,
+        "descriptionEnglish": "Zyprole (INN) and its salts for pharmaceutical",
+        "descriptionArabic": "وزايببرول ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      }
+    ],
+    "293372000901": [
+      {
+        "id": "293372000901-p095-01",
+        "sourcePage": 95,
+        "descriptionEnglish": "Clobazam (INN) for pharmaceutical and",
+        "descriptionArabic": "كلوبازام ( INN ) لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293372000901-p095-02",
+        "sourcePage": 95,
+        "descriptionEnglish": "Methylprylone (INN) for pharmaceutical and",
+        "descriptionArabic": "ميثيل بريلون ( INN ) لالستخدامات الدوائية والصيدالنية"
+      }
+    ],
+    "293391000901": [
+      {
+        "id": "293391000901-p095-01",
+        "sourcePage": 95,
+        "descriptionEnglish": "Alprazolam (INN) and its salts for",
+        "descriptionArabic": "البـــرازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-02",
+        "sourcePage": 95,
+        "descriptionEnglish": "Camezepam (INN) and its salts for",
+        "descriptionArabic": "كــاميزبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-03",
+        "sourcePage": 95,
+        "descriptionEnglish": "Clodiazepoxide (INN) and its salts for",
+        "descriptionArabic": "كلوديازيبوكسيد ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-04",
+        "sourcePage": 95,
+        "descriptionEnglish": "Clonazepam (INN) and its salts for",
+        "descriptionArabic": "كلونيزبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-05",
+        "sourcePage": 95,
+        "descriptionEnglish": "Chlorizbet (INN) and its salts for",
+        "descriptionArabic": "كلوريزبيت ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-06",
+        "sourcePage": 95,
+        "descriptionEnglish": "Delorezpam (INN) and its salts for",
+        "descriptionArabic": "ديلوريزبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-07",
+        "sourcePage": 95,
+        "descriptionEnglish": "Diazepam (INN) and its salts for",
+        "descriptionArabic": "ديازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-08",
+        "sourcePage": 95,
+        "descriptionEnglish": "Estazolam (INN) and its salts for",
+        "descriptionArabic": "استازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-09",
+        "sourcePage": 95,
+        "descriptionEnglish": "Ethylloflazebet (INN) and its salts for",
+        "descriptionArabic": "اثيل لوفالزيبيت ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-10",
+        "sourcePage": 95,
+        "descriptionEnglish": "Fludiazepam (INN) and its salts for",
+        "descriptionArabic": "فلوديازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-11",
+        "sourcePage": 95,
+        "descriptionEnglish": "Flunitrazepam (INN) and its salts for",
+        "descriptionArabic": "فلونترازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-12",
+        "sourcePage": 95,
+        "descriptionEnglish": "Flunitrazepam (INN) and its salts for",
+        "descriptionArabic": "فلوريزبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-13",
+        "sourcePage": 95,
+        "descriptionEnglish": "Halizepam (INN) and its salts for",
+        "descriptionArabic": "هاليزبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-14",
+        "sourcePage": 95,
+        "descriptionEnglish": "Lorazepam (INN) and its salts for",
+        "descriptionArabic": "لورازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-15",
+        "sourcePage": 95,
+        "descriptionEnglish": "Lorazepam (INN) and its salts for",
+        "descriptionArabic": "لورازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-16",
+        "sourcePage": 95,
+        "descriptionEnglish": "Mazindol (INN) and its salts for pharmaceutical",
+        "descriptionArabic": "مازيندول ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-17",
+        "sourcePage": 95,
+        "descriptionEnglish": "Mida-Zepam (INN) and its salts for",
+        "descriptionArabic": "ميدا زيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-18",
+        "sourcePage": 95,
+        "descriptionEnglish": "Mida-Zollam (INN) and its salts for",
+        "descriptionArabic": "ميدا زوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-19",
+        "sourcePage": 95,
+        "descriptionEnglish": "Nimetazepam (INN) and its salts for",
+        "descriptionArabic": "نيميتازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-20",
+        "sourcePage": 95,
+        "descriptionEnglish": "Nitrazepam (INN) and its salts for",
+        "descriptionArabic": "نترازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-21",
+        "sourcePage": 95,
+        "descriptionEnglish": "Nordazepam (INN) and its salts for",
+        "descriptionArabic": "نوردازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-22",
+        "sourcePage": 95,
+        "descriptionEnglish": "Oxazepam (INN) and its salts for",
+        "descriptionArabic": "اوكسازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-23",
+        "sourcePage": 95,
+        "descriptionEnglish": "Benazepam (INN) and its salts for",
+        "descriptionArabic": "بينازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-24",
+        "sourcePage": 95,
+        "descriptionEnglish": "Prazepam (INN) and its salts for",
+        "descriptionArabic": "برازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p095-25",
+        "sourcePage": 95,
+        "descriptionEnglish": "Temazepam (INN) and its salts for",
+        "descriptionArabic": "تيمازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p096-26",
+        "sourcePage": 96,
+        "descriptionEnglish": "Tetrazepam (INN) and its salts for",
+        "descriptionArabic": "تترازيبام ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293391000901-p096-27",
+        "sourcePage": 96,
+        "descriptionEnglish": "Triazolam (INN) and its salts for",
+        "descriptionArabic": "تريازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      }
+    ],
+    "293491000901": [
+      {
+        "id": "293491000901-p096-01",
+        "sourcePage": 96,
+        "descriptionEnglish": "Aminorex (INN) and its salts for pharmaceutical",
+        "descriptionArabic": "امينــوركس ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-02",
+        "sourcePage": 96,
+        "descriptionEnglish": "Brotenzolam (INN) and its salts for",
+        "descriptionArabic": "بروتينزوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-03",
+        "sourcePage": 96,
+        "descriptionEnglish": "Cloxazolam (INN) and its salts for",
+        "descriptionArabic": "كلوكسازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-04",
+        "sourcePage": 96,
+        "descriptionEnglish": "Dextromoramide (INN) and its salts for",
+        "descriptionArabic": "دكستروموراميد ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-05",
+        "sourcePage": 96,
+        "descriptionEnglish": "Haloxazolam (INN) and its salts for",
+        "descriptionArabic": "هالوكسازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-06",
+        "sourcePage": 96,
+        "descriptionEnglish": "Catazolam (INN) and its salts for",
+        "descriptionArabic": "كتازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-07",
+        "sourcePage": 96,
+        "descriptionEnglish": "Mesocarb (INN) and its salts for pharmaceutical",
+        "descriptionArabic": "مسوكارب ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-08",
+        "sourcePage": 96,
+        "descriptionEnglish": "Oxazolam (INN) and its salts for",
+        "descriptionArabic": "أوكسازوالم ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-09",
+        "sourcePage": 96,
+        "descriptionEnglish": "Phendimetrazine (INN) and its salts for",
+        "descriptionArabic": "فنديمترازين ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-10",
+        "sourcePage": 96,
+        "descriptionEnglish": "Phendimetrazine (INN) and its salts for",
+        "descriptionArabic": "فينميترازين ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      },
+      {
+        "id": "293491000901-p096-11",
+        "sourcePage": 96,
+        "descriptionEnglish": "Sufentanil (INN) and its salts for",
+        "descriptionArabic": "سوفنتانيل ( INN ) وأمالحه لالستخدامات الدوائية والصيدالنية"
+      }
+    ]
+  }
+}

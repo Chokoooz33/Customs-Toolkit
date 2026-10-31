@@ -1,0 +1,33 @@
+{
+  "version": "4.0",
+  "focus": "Air Cargo live tracking reliability",
+  "swiftSyntaxFilesParsed": 71,
+  "swiftSyntaxResult": "pass",
+  "staticTrackingChecks": 19,
+  "staticTrackingChecksResult": "pass",
+  "transom": {
+    "publicPage": "https://webtrack.omansats.om/shipment-tracking-details",
+    "pageType": "JavaScript application",
+    "publicForm": ["AWB", "HAWB", "Track and Trace"],
+    "documentedPublicAPIFound": false,
+    "serverSideLiveSubmissionFromBuildEnvironment": "not available",
+    "deviceStrategy": "main-frame WKUserScript + WKScriptMessageHandler + DOM MutationObserver",
+    "crossOriginIframeTraversal": false,
+    "evaluateJavaScriptPolling": false,
+    "awbFormatsAttempted": ["XXX-XXXXXXXX", "XXXXXXXXXXX"]
+  },
+  "regressionAWB": {
+    "awb": "910-18733654",
+    "verifiedAirlineSourceExpected": {
+      "route": "LHR-MCT",
+      "flight": "WY104",
+      "pieces": 14,
+      "weightKg": 111.50,
+      "status": "Arrived at MCT"
+    }
+  },
+  "airlinePrefixesCovered": [
+    "910", "176", "157", "607", "235", "065", "020", "172", "071", "072", "160", "618", "057", "074", "125", "098", "229", "514", "960"
+  ],
+  "note": "Full end-to-end Transom tracking must still be verified on an iOS device because the remote public site is JavaScript-driven and no documented public API was found. The app never fabricates tracking data."
+}

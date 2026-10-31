@@ -1,0 +1,25 @@
+{
+  "version": "4.3.0",
+  "scope": "Remaining 15 airline tracking profiles + generic WebKit hardening",
+  "validation": {
+    "swift_files_parsed": 80,
+    "swift_parse": "pass",
+    "embedded_javascript_node_check": "pass",
+    "source_diff_scope": [
+      "CustomsToolkit/Services/AirCargoTrackingService.swift",
+      "CustomsToolkit/Services/AirCargoWebTrackingResolver.swift",
+      "CustomsToolkitTests/AirCargoTrackingTests.swift",
+      "Documentation/AIR_CARGO_TRACKING_V4_3_REMAINING_AIRLINES.md",
+      "Documentation/AIR_CARGO_TRACKING_V4_3_TEST_REPORT.json"
+    ],
+    "swift_test": "not runnable in this Linux validation environment because the iOS target imports SwiftUI/WebKit; run the test target in Xcode on macOS"
+  },
+  "live_device_confirmed_before_v4_3": [
+    "Oman Air Cargo (910)",
+    "Emirates SkyCargo (176)",
+    "Turkish Cargo (235)",
+    "Qatar Airways Cargo (157)",
+    "Transom Cargo"
+  ],
+  "remaining_15": "configured with ordered official/public fallback strategies; real-AWB iPhone confirmation still required per carrier"
+}

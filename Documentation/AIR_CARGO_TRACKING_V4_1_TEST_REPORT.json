@@ -1,0 +1,23 @@
+{
+  "version": "4.1",
+  "targetAWB": "910-18733654",
+  "tests": {
+    "swiftSyntaxFiles": 69,
+    "swiftSyntaxFailures": 0,
+    "productionTransomFixture": "passed",
+    "partialShortLandFixture": "passed",
+    "emptyEntryFormRejected": "passed",
+    "automationStaticChecks": "passed"
+  },
+  "expectedTransom": {
+    "origin": "LHR",
+    "destination": "MCT",
+    "expectedPieces": 14,
+    "receivedPieces": 14,
+    "flightNumber": "WY0104",
+    "flightDate": "16 AUGUST 2026",
+    "status": "Document Released",
+    "lastEvent": "Document Released — 25 AUGUST 2026 14:02"
+  },
+  "liveDeviceVerification": "required"
+}

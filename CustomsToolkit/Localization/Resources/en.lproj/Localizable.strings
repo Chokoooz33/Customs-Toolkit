@@ -1,0 +1,348 @@
+/* English Localizable.strings - Customs Toolkit */
+
+/* App & Tabs */
+"app_name" = "Customs Toolkit";
+"app_subtitle" = "Essential customs tools. One place.";
+"tab_home" = "Home";
+"tab_tools" = "Tools";
+"tab_saved" = "Saved";
+"tab_more" = "More";
+
+/* Tools Titles & Descriptions */
+"tool_unit_converter" = "Unit Converter";
+"tool_unit_converter_desc" = "Carat, weight, area and mass-volume conversions for customs work";
+"tool_hscode_search" = "HS Code Search";
+"tool_hscode_search_desc" = "Fast partial search and normalization for tariff codes";
+"tool_diff_calculator" = "Duty & VAT Difference Calculator";
+"tool_diff_calculator_desc" = "Tax difference reverse calculation with condition adjustments";
+"tool_gold_price" = "Gold Price";
+"tool_gold_price_desc" = "Daily live customs gold rates via trusted portal";
+
+/* Common Actions */
+"copy_result" = "Copy Result";
+"copied" = "Copied to Clipboard";
+"reset" = "Reset";
+"clear" = "Clear";
+"calculate" = "Calculate";
+"search" = "Search";
+"retry" = "Retry";
+"close" = "Close";
+"swap" = "Swap Direction";
+"coming_soon" = "Coming Soon";
+"done" = "Done";
+"details" = "Details";
+
+/* Unit Converter */
+"converter_carat_to_gram" = "Carat → Gram";
+"converter_gram_to_carat" = "Gram → Carat";
+"conversion_type" = "Conversion Type";
+"pair_carat_gram" = "Carat ↔ Gram";
+"pair_gram_kilogram" = "Gram ↔ Kilogram";
+"pair_square_foot_square_meter" = "Square Foot ↔ Square Meter";
+"pair_pound_kilogram" = "Pound (lb) ↔ Kilogram";
+"pair_gram_liter" = "Gram ↔ Liter";
+"kilogram" = "Kilogram";
+"kilograms" = "Kilograms (kg)";
+"square_foot" = "Square Foot";
+"square_feet" = "Square Feet (ft²)";
+"square_meter" = "Square Meter";
+"square_meters" = "Square Meters (m²)";
+"pound" = "Pound";
+"pounds" = "Pounds (lb)";
+"liter" = "Liter";
+"liters" = "Liters (L)";
+"density" = "Material Density (g/mL)";
+"density_hint" = "Required for Gram ↔ Liter. Example: water ≈ 1.0 g/mL";
+"density_required_error" = "Enter a valid material density greater than zero";
+"enter_value" = "Enter value";
+"carat" = "Carat";
+"gram" = "Gram";
+"carats" = "Carats (ct)";
+"grams" = "Grams (g)";
+"conversion_rule" = "Conversion Rule";
+"conversion_rule_desc" = "Select a conversion type. Gram ↔ Liter requires material density (g/mL).";
+"converted_result" = "Converted Result";
+
+/* HS Code Search & Tariff */
+"hs_search_placeholder" = "Type HS Code (e.g. 01, 0101, 010121100001)...";
+"recent_searches" = "Recent Searches";
+"no_recent_searches" = "No recent searches yet";
+"clear_history" = "Clear History";
+"tariff_not_installed_title" = "Tariff reference data is not installed yet.";
+"tariff_not_installed_desc" = "The official Oman Customs Tariff dataset is pending installation. Once imported, full partial & full-code searches will be instant.";
+"partial_search_hint" = "Enter any code prefix or commodity keywords. Formatting is normalized automatically.";
+"hs_results_count" = "%d matches found";
+"no_results_found" = "No matching HS Codes found";
+"copy_hs_code" = "Copy HS Code";
+"copy_description" = "Copy Description";
+"commodity_description" = "Commodity Description";
+"duty_rate" = "Customs Duty Rate";
+"source_reference" = "Source Reference";
+"chapter" = "Chapter";
+"heading" = "Heading";
+"procedure" = "Procedure";
+"source_page" = "Source Page";
+"trade_agreements" = "Trade Agreement Indicators";
+"indicator_ind" = "IND (India)";
+"indicator_efta" = "EFTA";
+"indicator_sg" = "Singapore (SG)";
+"indicator_usa" = "USA";
+
+/* Tariff Status */
+"tariff_status" = "Status";
+"status_normal" = "Normal";
+"status_restricted" = "Restricted";
+"status_prohibited" = "Prohibited";
+"status_unknown" = "Unknown";
+
+/* Duty & VAT Difference Calculator */
+"mode_tax_difference" = "Tax / Difference Amount";
+"mode_original_amount" = "Original Amount";
+"enter_5_percent_amount" = "Enter 5% Tax / Difference Amount";
+"enter_original_amount" = "Enter Original Base Amount";
+"condition" = "Condition";
+"condition_duty_and_vat" = "Duty + VAT";
+"condition_vat_only" = "VAT Only";
+"adjustment" = "Fixed Adjustment";
+"temporary_adjustment_notice" = "Approved adjustment: 97.566 OMR for Duty + VAT, and 200.000 OMR for VAT Only.";
+"currency_conversion" = "Currency Conversion";
+"select_target_currency" = "Target Declaration Currency";
+"enter_customs_exchange_rate" = "Enter Customs Exchange Rate";
+"exchange_rate_convention" = "Exchange Rate Convention";
+"convention_pending_notice" = "Convention Pending Verification (Select convention below):";
+"convention_multiply" = "Multiply (OMR × Rate)";
+"convention_divide" = "Divide (OMR ÷ Rate)";
+"calculation_summary" = "Calculation Summary";
+"entered_tax_difference" = "Entered 5% Difference";
+"calculated_5_percent_original" = "5% Original Base Value";
+"adjusted_omr_value" = "Adjusted OMR Value";
+"exchange_rate" = "Exchange Rate";
+"final_declaration_value" = "Final Declaration Value";
+"invalid_amount_error" = "Please enter a valid positive numerical amount";
+"invalid_exchange_rate_error" = "Please enter a valid non-zero exchange rate";
+
+/* Gold Price Web View */
+"gold_price_title" = "Gold Price";
+"gold_price_url_pending" = "Trusted Portal Loading";
+"gold_price_url_pending_desc" = "Loading live gold prices for Oman customs workflow.";
+"web_view_loading" = "Loading trusted gold price portal...";
+"web_view_error" = "Unable to load page. Please check your connection.";
+
+/* Saved Screen */
+"saved_title" = "Saved";
+"saved_empty_title" = "No Saved Items";
+"saved_empty_desc" = "Saved calculations and favorite HS codes will appear here in a future update.";
+"future_favorites_coming_soon" = "Favorites & Saved Calculations Foundation";
+
+/* Settings / More Screen */
+"settings_title" = "Settings & More";
+"appearance" = "Appearance";
+"appearance_system" = "System Default";
+"appearance_light" = "Light Mode";
+"appearance_dark" = "Dark Mode";
+"language" = "Language";
+"language_english" = "English";
+"language_arabic" = "العربية";
+"about" = "About";
+"version" = "Version";
+"creator_credit" = "Created by Mohammed Al Rahbi";
+"reference_data" = "Reference Data";
+"official_tariff_source" = "Oman Customs Tariff";
+"not_installed" = "Pending Dataset";
+"status_installed" = "Installed";
+"status_pending_dataset" = "Pending Dataset";
+"records_count" = "%d records indexed";
+"reference_data_desc" = "Official Oman Customs Tariff 2026 dataset metadata and status.";
+
+/* Search performance & clarity */
+"normalized_label" = "Normalized:";
+"search_more_characters_title" = "Enter at least two characters";
+"search_more_characters_desc" = "Enter two or more HS digits, or at least two description characters, to start searching.";
+"searching_tariff" = "Searching the 2026 tariff…";
+"showing_top_results" = "Showing the first %d results for faster performance.";
+"rate_label" = "Rate";
+"web_view_secure_connection_error" = "The Gold Price page could not be opened securely. Check your connection and try again.";
+
+/* Dashboard identity */
+"dashboard_oman" = "Oman";
+"dashboard_tariff_2026" = "Tariff 2026";
+"dashboard_offline" = "Offline Ready";
+"dashboard_reference_status" = "Reference Data";
+"dashboard_tariff_records" = "Tariff Records";
+"dashboard_recent_searches" = "Recent Searches";
+"dashboard_quick_tools" = "Quick Tools";
+"dashboard_primary_tool" = "PRIMARY";
+"dashboard_tariff_card_desc" = "Quick access to Oman Tariff 2026 and HS code lookup";
+"dashboard_recent_activity" = "Recent Activity";
+"dashboard_hs_search_activity" = "HS Search";
+
+/* Native gold dashboard */
+"dashboard_gold_oman" = "Gold Price in Oman";
+"dashboard_gold_karat_24" = "24K Gold";
+"dashboard_gold_last_update" = "Last updated";
+"dashboard_gold_refresh" = "Refresh";
+"dashboard_gold_view_source" = "View source";
+"dashboard_gold_loading" = "Updating gold prices…";
+"dashboard_gold_unavailable" = "Live gold price is temporarily unavailable.";
+"dashboard_gold_per_gram" = "per gram";
+"dashboard_gold_source" = "Source: gold-price-today.com";
+
+/* Air Cargo Launch */
+"tool_air_cargo_tracking" = "Air Cargo Tracking";
+"tool_air_cargo_tracking_desc" = "Track one AWB across the airline source and Transom Cargo";
+"tool_cargo_board" = "Air Cargo Board";
+"tool_cargo_board_desc" = "Keep previously tracked air shipments in one focused board";
+
+/* HS Camera Scanner */
+"hs_camera_title" = "Scan HS Code";
+"hs_camera_aim_hint" = "Point the camera at the HS code printed on the document";
+"hs_camera_searching" = "Looking for HS-code numbers…";
+"hs_camera_candidates_title" = "Detected HS codes";
+"hs_camera_use_selected" = "Use Selected Code";
+"hs_camera_unavailable_title" = "Camera Scanner Unavailable";
+"hs_camera_unavailable_description" = "Live text scanning is not available on this device. You can still type the HS code in search.";
+
+/* Air Cargo Tracking */
+"tracking_awb_title" = "Track an Air Shipment";
+"tracking_two_sources_hint" = "One AWB. Airline + Transom Cargo.";
+"tracking_awb_number" = "Air Waybill Number";
+"tracking_awb_placeholder" = "176-12345678";
+"tracking_awb_auto_format_hint" = "Enter 11 digits only — the dash is inserted automatically after the first 3 digits.";
+"tracking_track_shipment" = "Track Shipment";
+"tracking_invalid_awb" = "Enter a complete 11-digit AWB number.";
+"tracking_unable_to_prepare" = "Live tracking data could not be refreshed from the sources. Try again.";
+"tracking_results_title" = "Tracking Results";
+"tracking_updating_second_source" = "Updating the second source…";
+"tracking_airline_source" = "Airline Tracking";
+"tracking_airline_unknown" = "Airline not identified";
+"tracking_airport_confirmation" = "Muscat airport cargo confirmation";
+"tracking_flight" = "Flight";
+"tracking_route" = "Route";
+"tracking_departure" = "Departure";
+"tracking_arrival" = "Arrival";
+"tracking_pieces" = "Pieces";
+"tracking_weight" = "Weight";
+"tracking_status" = "Status";
+"tracking_recent_events" = "Last 3 Updates";
+"tracking_last_event" = "Last Event";
+"tracking_flight_date" = "Flight Date";
+"tracking_import_export" = "Import / Export";
+"tracking_agent" = "Agent";
+"tracking_arrival_status" = "Arrival Status";
+"tracking_received_pieces" = "Received Pieces";
+"tracking_short_landed" = "Short Landed";
+"tracking_live" = "LIVE";
+"tracking_source_ready" = "SOURCE";
+"tracking_unavailable" = "UNAVAILABLE";
+"tracking_source_connector_pending" = "The shipment data could not be read automatically from this source on this attempt. Open the official source directly or retry.";
+"tracking_open_official_source" = "Open Official Tracking Source";
+"tracking_short_land_detected" = "Short land detected";
+"tracking_short_land_count" = "%d piece(s) not received";
+"tracking_add_to_board" = "Add to Cargo Board";
+"tracking_already_on_board" = "Already on Cargo Board";
+
+/* Air Cargo Board */
+"cargo_board_active_shipments" = "Tracked shipments";
+"cargo_board_refresh_all" = "Refresh all shipments";
+"cargo_board_search_placeholder" = "Search AWB or airline";
+"cargo_board_empty_title" = "No tracked shipments yet";
+"cargo_board_empty_description" = "Track an AWB first, then add it to this board. It stays saved for your next visit.";
+"cargo_board_filter_all" = "All";
+"cargo_state_arrived" = "Arrived";
+"cargo_state_partial" = "Partial";
+"cargo_state_in_transit" = "In Transit";
+"cargo_state_not_arrived" = "Not Arrived";
+"cargo_state_unknown" = "Pending";
+"cargo_board_refresh_shipment" = "Refresh Shipment";
+"cargo_board_remove_shipment" = "Remove from Board";
+"cargo_board_shipment_details" = "Shipment Details";
+
+/* Service Areas / Sea Services */
+"service_choose_title" = "Choose your service area";
+"service_choose_desc" = "Open the workspace that matches the shipment you are clearing.";
+"service_air_title" = "Air Services";
+"service_air_desc" = "Keep the current air-cargo dashboard and operational tools.";
+"service_air_badge" = "Air cargo operations";
+"service_sea_title" = "Sea Services";
+"service_sea_desc" = "Sea-clearance tools focused on HS classification, duty and fast conversions.";
+"service_sea_badge" = "Sea port clearance";
+"sea_dashboard_subtitle" = "Fast sea-clearance tools for Oman import operations";
+"sea_hs_focus" = "HS Code first";
+"sea_hs_card_desc" = "Search Oman Tariff 2026, review duty status and open official permit requirements.";
+"service_current" = "Current service";
+"service_change" = "Change Air / Sea service";
+
+/* Import Duty Calculator */
+"tool_duty_calculator" = "Duty Calculator";
+"tool_duty_calculator_desc" = "Calculate CIF, customs duty and VAT for imports";
+"duty_import_only" = "Import calculation";
+"duty_import_only_desc" = "This workflow is intentionally limited to imports.";
+"duty_delivery_term" = "Term of Delivery";
+"duty_customs_value" = "Customs Value";
+"duty_currency" = "Invoice Currency";
+"duty_exchange_rate_to_omr" = "Customs exchange rate";
+"duty_exchange_rate_hint" = "Enter OMR value for 1 %@ (example: 1 USD = 0.385 OMR).";
+"duty_exchange_rate_required" = "Rate";
+"duty_cif_value" = "CIF value";
+"duty_cost_value" = "Cost / Invoice value";
+"duty_freight_value" = "Freight";
+"duty_insurance_auto" = "Insurance — automatic";
+"duty_insurance_formula" = "Fixed at 1% of Cost + Freight";
+"duty_cif_hint" = "For CIF, enter the full CIF value directly.";
+"duty_fob_exw_hint" = "For FOB or EXW, enter Cost and Freight. Insurance is added automatically at 1% of Cost + Freight.";
+"duty_hs_method" = "Duty Source";
+"duty_method_hs" = "HS Code";
+"duty_method_description" = "Description";
+"duty_method_quick" = "Quick 5%";
+"duty_description_placeholder" = "Describe the goods";
+"duty_quick_estimate_title" = "Quick estimate without HS Code";
+"duty_quick_estimate_desc" = "Uses 5% duty and 5% VAT. This is an estimate only; the final rate depends on the actual HS classification, exemptions and other applicable taxes or fees.";
+"duty_result_title" = "Calculation Result";
+"duty_cif_omr" = "CIF value (OMR)";
+"duty_duty_rate" = "Customs duty rate";
+"duty_duty_amount" = "Customs duty";
+"duty_vat_base" = "VAT taxable value";
+"duty_vat_rate" = "VAT rate";
+"duty_vat_amount" = "VAT";
+"duty_total_taxes" = "Total duty + VAT";
+"duty_landed_value" = "CIF + duty + VAT";
+"duty_estimate_disclaimer" = "Estimate only. Verify the final HS code, preferential tariff, exemptions, excise tax and other charges in Bayan / Oman Customs before declaration.";
+"duty_official_source" = "Oman Customs Duty Calculator";
+"duty_official_note" = "The official calculator uses Import, HS Code, CIF value, currency/exchange rate, quantity, UOM and country of origin. Customs Toolkit simplifies the first operational estimate.";
+"duty_open_official_calculator" = "Open official calculator";
+
+/* Permit / Import Requirements */
+"permit_title" = "Permit & Import Requirements";
+"permit_requirement" = "Permit requirement";
+"permit_verification_required" = "Verify on Oman Customs";
+"permit_prohibited" = "Import prohibited";
+"permit_official_check" = "Official Oman Customs check";
+"permit_captcha_notice" = "The official service uses CAPTCHA. The HS code is prepared for you; complete the verification on the official page.";
+"permit_open_official" = "Open official requirements search";
+"permit_check_action" = "Check permit requirements";
+"duty_calculate_for_hs" = "Calculate duty for this HS Code";
+
+/* Duty Calculator V4.2.1 */
+"duty_cfr_value" = "CFR value";
+"duty_cfr_hint" = "For CFR, enter the full CFR value. Insurance is added automatically at 1% to derive CIF.";
+"duty_declaration_details" = "Declaration Details";
+"duty_importer_type" = "Importer Type";
+"duty_company" = "Company";
+"duty_personal" = "Personal";
+"duty_documents" = "Documents";
+"duty_documents_original" = "Original";
+"duty_documents_not_original" = "Not Original";
+"duty_guarantee_rule" = "A 2% documentation guarantee is added only when documents are not original and CIF is above 1,000 OMR.";
+"duty_documentation_guarantee" = "Documentation Guarantee (2%)";
+"duty_bayan_documentation" = "Bayan Documentation";
+"duty_total_payable" = "TOTAL";
+"duty_actions" = "Result Actions";
+"duty_copy_result" = "Copy";
+"duty_share_result" = "Share";
+"duty_export_pdf" = "PDF";
+"duty_print" = "Print";
+"duty_copied" = "Result copied";
+"duty_report_title" = "Duty Calculation Report";
+"duty_generated_by" = "Generated by Customs Toolkit";
+"duty_total_breakdown" = "Duty + VAT + additional charges";
+"duty_report_note" = "Operational calculation summary. Verify final declaration data in Bayan / Oman Customs when required.";

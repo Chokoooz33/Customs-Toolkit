@@ -1,0 +1,28 @@
+{
+  "version": "4.3.6",
+  "scope": "Air India Cargo AWB prefix 098 tracking adapter only",
+  "official_tracking_page": "https://cargo.airindia.com/in/en/track-shipment.html",
+  "fallbacks": [
+    "https://aicargoportal.airindia.com/icargoneoportal/app/main/",
+    "https://touch.track-trace.com/aircargo"
+  ],
+  "checks": {
+    "swift_parse": {
+      "files": 79,
+      "status": "pass"
+    },
+    "embedded_tracking_javascript_node_check": "pass",
+    "zip_integrity": "pending-until-packaged",
+    "live_device_098_awb": "not_run_real_awb_required"
+  },
+  "unchanged_areas": [
+    "Oman Air",
+    "Emirates",
+    "Turkish",
+    "Qatar",
+    "Transom",
+    "HS Code",
+    "Duty Calculator",
+    "Shipment Detail UI"
+  ]
+}

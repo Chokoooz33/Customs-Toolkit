@@ -1,0 +1,22 @@
+{
+  "release": "V4.3.4 - Full Shipment Tracking Details",
+  "validation": {
+    "swift_files_parsed": 80,
+    "swift_syntax": "passed",
+    "swift_test_linux": "not_supported_due_to_SwiftUI_WebKit_iOS_modules",
+    "zip_integrity": "pending_at_packaging"
+  },
+  "scope": {
+    "tracking_ui_changed": true,
+    "all_verified_events_retained": true,
+    "transom_full_events_retained": true,
+    "single_shipment_refresh_added": true,
+    "hs_tariff_database_changed": false,
+    "duty_calculator_changed": false
+  },
+  "device_verification_required": [
+    "live WebKit airline pages",
+    "merged airline and Transom ordering across real source timestamp formats",
+    "visual layout on target iPhone"
+  ]
+}

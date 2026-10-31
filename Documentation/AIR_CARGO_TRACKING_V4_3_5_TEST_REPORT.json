@@ -1,0 +1,16 @@
+{
+  "version": "4.3.5",
+  "scope": "Shipment tracking detail header accuracy and readability",
+  "swift_files_parsed": 80,
+  "checks": {
+    "swift_parse": "pass",
+    "route_ltr_in_arabic": "implemented",
+    "awb_single_line": "implemented",
+    "compact_source_labels": "implemented",
+    "latest_event_source_label": "implemented",
+    "tracking_parsers_changed": false,
+    "hs_code_changed": false,
+    "duty_calculator_changed": false
+  },
+  "note": "Full iOS SwiftUI/WebKit runtime validation still requires Xcode/device testing."
+}

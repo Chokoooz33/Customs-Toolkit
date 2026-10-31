@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0202A12B05C64636909EEED0 /* Features/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350D569BEDA440BB02FA0DB /* Features/Home/HomeView.swift */; };
+		043CF2027B8C4CBA98176793 /* Models/CalculationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE5504AA6D4F9583163C5E /* Models/CalculationModels.swift */; };
+		04E7910D8BC1472C8B5B0564 /* Features/Saved/SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B623E39A9C420DBA7F376B /* Features/Saved/SavedView.swift */; };
+		0B2087FD28174C67A25A8C77 /* Localization/LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5931652F34E8CB9AAE8FE /* Localization/LanguageManager.swift */; };
+		0EF72A70EFFF4FDBA9986BCB /* Localization/Resources/ar.lproj/InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB4476846FE4DE988DAC2C5 /* Localization/Resources/ar.lproj/InfoPlist.strings */; };
+		11FD42E6BE9148758228EC61 /* Services/HSCodeCandidateExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146EA50C75B74C49B52C3E8D /* Services/HSCodeCandidateExtractor.swift */; };
+		13F37A82BFA343B988107B78 /* Services/DifferenceCalculatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2810AFDDE234613A3157A25 /* Services/DifferenceCalculatorService.swift */; };
+		193B311962574E449A836442 /* Features/ServiceSelection/ServiceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23BAD5F47F34F3A9278F002 /* Features/ServiceSelection/ServiceSelectionView.swift */; };
+		22308B9A22B34AC49CAF20B9 /* Models/HSCodeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0472020E74233907D6FFD /* Models/HSCodeItem.swift */; };
+		242FE84196744AE8935F65EA /* Services/HSNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C103C41F8B146C2B9EF8A98 /* Services/HSNormalizer.swift */; };
+		24A7A41588E0401387C5917C /* StorageServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DE194ABC349389BDFF628 /* StorageServiceTests.swift */; };
+		2586C949A0D9489D9743FAAD /* Models/RecentSearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37EC3C85244E99B252DAB3 /* Models/RecentSearchItem.swift */; };
+		28BFA6B2853147E7A54447F5 /* DesignSystem/Tokens/AppTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C5DD2808B4D2CBF4F7643 /* DesignSystem/Tokens/AppTypography.swift */; };
+		2A5BC233CDF64DB39CB6DDEB /* Models/ServiceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECCD7EE3A84C9F8EFB2568 /* Models/ServiceArea.swift */; };
+		374DE91D30574C0284E8A907 /* Core/Utilities/DecimalMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C676C8462486DB6A334EB /* Core/Utilities/DecimalMath.swift */; };
+		3BB0B4200D4F4131A35EACE8 /* DesignSystem/Components/AppSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B46B895862D420FA6D5BC20 /* DesignSystem/Components/AppSegmentedPicker.swift */; };
+		3D0257527A4A445281463E27 /* Services/AirCargoWebTrackingResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913F9E9B87344C0A8DE5F7B /* Services/AirCargoWebTrackingResolver.swift */; };
+		434E823C93924700A58C15CC /* DesignSystem/Components/AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536A51E96E247EAAE965C64 /* DesignSystem/Components/AppCard.swift */; };
+		463C95F79851470F953B873A /* DesignSystem/Components/ToolGridCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2695CF2D84DA28D3AFDFC /* DesignSystem/Components/ToolGridCard.swift */; };
+		4FC5F7D0D736436BB6341276 /* HSCodeCandidateExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A221ADB094D15ABA18B28 /* HSCodeCandidateExtractorTests.swift */; };
+		50E0CCA122284F01848E5DE5 /* Core/Utilities/ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133323BA21F24B10823F9697 /* Core/Utilities/ClipboardService.swift */; };
+		50F686A46DCC4B3DA71E29A4 /* Features/CargoBoard/CargoBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C25790650D4866A4548AAF /* Features/CargoBoard/CargoBoardView.swift */; };
+		52F80BE7C098482294C83114 /* Features/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FAE550A914B569DBA6855 /* Features/Settings/SettingsView.swift */; };
+		54FF3EFFCF924FE0B14B1066 /* Features/AirCargoTracking/AirCargoTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51351D5BB1974558A3DD38A5 /* Features/AirCargoTracking/AirCargoTrackingViewModel.swift */; };
+		56AE73F3B6A24B0DB90BD0E2 /* Features/HSCodeSearch/HSCodeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4954B79F8F14539A2ABAA34 /* Features/HSCodeSearch/HSCodeSearchView.swift */; };
+		5828436D5F224B25B22493A6 /* Features/GoldPrice/GoldPriceWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14ADA47A68440CA7BB97DB /* Features/GoldPrice/GoldPriceWebView.swift */; };
+		5AB6578F372D4C8FA6801BF9 /* Services/AirCargoTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13695ED599B047839D67116F /* Services/AirCargoTrackingService.swift */; };
+		5F6DCF436114429F85F69579 /* Localization/Resources/en.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 316882367BF8493BB8841DAE /* Localization/Resources/en.lproj/Localizable.strings */; };
+		623D587DF9C040D89A35C133 /* Localization/Resources/ar.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F545717BD34AF4BBCEFDF3 /* Localization/Resources/ar.lproj/Localizable.strings */; };
+		67174BF7D3C144CC8246A424 /* Features/UnitConverter/UnitConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA24A92FC241DCB53C2FF8 /* Features/UnitConverter/UnitConverterView.swift */; };
+		6B8F3B62914344C7ADFC10D6 /* Features/SeaHome/SeaToolsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A514EB9C204361973D3E8D /* Features/SeaHome/SeaToolsListView.swift */; };
+		75BDB76B334046DDB853AC21 /* Models/DutyCalculatorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695B349875D42FA8D941725 /* Models/DutyCalculatorModels.swift */; };
+		777F229AF21747A1826A5B02 /* Features/AirCargoTracking/AirCargoTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978541AC2AF44D20BA4ACDA2 /* Features/AirCargoTracking/AirCargoTrackingView.swift */; };
+		7A338445B41E431B8D01DB3A /* Services/TariffDatasetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8505F6DE4E134635B367B08F /* Services/TariffDatasetLoader.swift */; };
+		7CCAC550D0674CAE83544ACE /* GoldPriceServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8660C963648C1AB98CE43 /* GoldPriceServiceTests.swift */; };
+		7FE8337215B14B3DBB1AB23E /* Services/CurrencyConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B5273A32E41059D6A7038 /* Services/CurrencyConversionService.swift */; };
+		81CC5269D240438F8F98B4EC /* GoldPriceConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320020C4B932494C8897F985 /* GoldPriceConfigTests.swift */; };
+		82D1C816EDDA4CAA8E9D313B /* Models/TariffValidationReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5927E1F7AFB84462B4A585F2 /* Models/TariffValidationReport.swift */; };
+		837E83BE4A7D48BF9C8B29BF /* DesignSystem/Components/AppEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3785B082DA14EA6890086B8 /* DesignSystem/Components/AppEmptyStateView.swift */; };
+		8473DF9FBEC94D708FE9847A /* Features/HSCodeSearch/HSCodeSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DAA04B796488F96A6D364 /* Features/HSCodeSearch/HSCodeSearchViewModel.swift */; };
+		854B29C2DCF042919A044C15 /* Features/PermitRequirements/PermitRequirementWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B975E4773B54D7FABD44354 /* Features/PermitRequirements/PermitRequirementWebView.swift */; };
+		88DA221B27D64AAFA29B9177 /* Models/Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2F16AE914782B4EA321B /* Models/Currency.swift */; };
+		8DA7BF1AE2B949B7B029482C /* Features/DifferenceCalculator/DifferenceCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40ADB117034E1CB36E2EA6 /* Features/DifferenceCalculator/DifferenceCalculatorViewModel.swift */; };
+		9562ED028A2F4373A1171635 /* DutyCalculatorServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF2C92D26F490EB2F16020 /* DutyCalculatorServiceTests.swift */; };
+		97AD74DD0A554DBDA0D88BF6 /* DesignSystem/Components/AppSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE2EC561A2848F294AB8C38 /* DesignSystem/Components/AppSectionHeader.swift */; };
+		9D5E91157E5B4F97AECECEC7 /* DesignSystem/Components/AppResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB60ED5128470C8A5F9866 /* DesignSystem/Components/AppResultCard.swift */; };
+		9E20DF2AF0314174AC3D11C1 /* Core/Config/AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06C426E3A0464F9E3BC7FA /* Core/Config/AppConfig.swift */; };
+		A1659BDB329447649EDE1D87 /* Features/DutyCalculator/DutyCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B0CB10769749EC8F4EFC77 /* Features/DutyCalculator/DutyCalculatorView.swift */; };
+		A581983FF6A74513A8781C0D /* Features/UnitConverter/UnitConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789814993CE4B2F8B68D659 /* Features/UnitConverter/UnitConverterViewModel.swift */; };
+		A9AABA7BB4864F109913D966 /* DesignSystem/Tokens/AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D6E4AA0DC499497179357 /* DesignSystem/Tokens/AppColors.swift */; };
+		A9BCE7C37CC5449AB26D352D /* Resources/oman_tariff_2026.json in Resources */ = {isa = PBXBuildFile; fileRef = A114889DFF1E40E8A2E94A15 /* Resources/oman_tariff_2026.json */; };
+		B2AA02254C3B459AA1BF89A4 /* Models/UnitConversionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581FF2EE6014033BA4CCA60 /* Models/UnitConversionType.swift */; };
+		B50B438E00DF4CB999F2A2A3 /* Services/HSSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC877A7AB6746829E0AF96F /* Services/HSSearchService.swift */; };
+		B921F76D0B1F47938BE49460 /* Core/Extensions/Decimal+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6209279E949CCA64B34ED /* Core/Extensions/Decimal+Formatting.swift */; };
+		BCD3D9B7CE3E4CB2B044A91E /* Localization/LocalizedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1615E3CD94F6CA43DE646 /* Localization/LocalizedKeys.swift */; };
+		BDBDC54A5110468A9CD44668 /* CurrencyConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5AE92B240431C8A558D2C /* CurrencyConversionTests.swift */; };
+		C02343179C72458E936D1333 /* Features/DutyCalculator/DutyCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1ECB62E094EAAAFBE4414 /* Features/DutyCalculator/DutyCalculatorViewModel.swift */; };
+		C0E9B53392474741AC26C087 /* Storage/CargoBoardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF16C2BCF084FA3B2EAF310 /* Storage/CargoBoardStore.swift */; };
+		C2EE83A95D4D4DACB289F3F3 /* Features/Tools/ToolsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6F7A8A4074146A4243968 /* Features/Tools/ToolsListView.swift */; };
+		C655C49311DB45C1AF2661EB /* DesignSystem/Tokens/AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC84205FA64BCE9E3F75FE /* DesignSystem/Tokens/AppSpacing.swift */; };
+		CA3B5FB4848C49F795261DA7 /* Services/UnitConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348C01D20264D12B562EFBC /* Services/UnitConversionService.swift */; };
+		CF33A5A98A564221B0FC5FE0 /* Features/Settings/ReferenceDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A17CF412B4013B339CF4D /* Features/Settings/ReferenceDataView.swift */; };
+		D16CD582B44441C2BC87D406 /* Features/Main/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D116022807B54B51853D3406 /* Features/Main/MainTabView.swift */; };
+		D40C7ED0F2BD49FB8C90F720 /* Features/SeaHome/SeaHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F11E843CC4066AC65500D /* Features/SeaHome/SeaHomeView.swift */; };
+		D8321CCE95D84A9D946F0C7A /* AirCargoTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64896288A2E04584BFC8DF1B /* AirCargoTrackingTests.swift */; };
+		D9205440EE2147ABB3C67DDD /* DesignSystem/Components/AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A00E7DEB040CCA404E2C4 /* DesignSystem/Components/AppTextField.swift */; };
+		DA5EE406EB9749B28BB336F1 /* Storage/StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD3918A6AE4B5B983760F1 /* Storage/StorageService.swift */; };
+		DC5FF7A3512041F1AC17CC02 /* Core/Utilities/HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F97EA752AD42A48F4F503D /* Core/Utilities/HapticFeedback.swift */; };
+		DD5C7AC3CCC046BE8D6FA293 /* TariffDatasetLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F1CE4AE34A34892BA485 /* TariffDatasetLoaderTests.swift */; };
+		DF4962CF0476409A87DE03E1 /* Localization/Resources/en.lproj/InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8314FE6BAADF4C7481F80331 /* Localization/Resources/en.lproj/InfoPlist.strings */; };
+		E10D137BA56C452E836F3717 /* HSSearchServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17549EE78E469692812FF7 /* HSSearchServiceTests.swift */; };
+		E304A551CDF744EF81A4FC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC9DFF2DF8341B8B869BAFB /* Assets.xcassets */; };
+		E3134F0217FA41C59572F3B6 /* UnitConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81FE384FC3942C3AEFB637A /* UnitConversionTests.swift */; };
+		E67CC53CC37B4B9095AA49F1 /* HSNormalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D002785FB85431187D6A882 /* HSNormalizerTests.swift */; };
+		E98515BD76CA497DB2CBA6B0 /* Services/DutyCalculatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C71715EB7F4440C920B9C80 /* Services/DutyCalculatorService.swift */; };
+		EE91B0C9109C458A84389FBB /* Features/HSCodeSearch/HSCodeCameraScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774A9445AD0F4270B4AE50D3 /* Features/HSCodeSearch/HSCodeCameraScannerView.swift */; };
+		F06CCAA2365C4AC08CAD964C /* App/CustomsToolkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FD59F266A4DBCB537D6D8 /* App/CustomsToolkitApp.swift */; };
+		F0EA848887F74A91803EF725 /* Features/DifferenceCalculator/DifferenceCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427C82BED554FCAAC71532A /* Features/DifferenceCalculator/DifferenceCalculatorView.swift */; };
+		F13E451509B24FC38A4EE844 /* App/AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ED28269DB44BBB4E5EF06 /* App/AppState.swift */; };
+		F42B8199222744BDA9F49B87 /* Services/GoldPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E30DBF17746FD91E1B3A2 /* Services/GoldPriceService.swift */; };
+		F65B30DDC11F45C9B22A966F /* Models/AirCargoTrackingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACEABCD84084CC48773DE7C /* Models/AirCargoTrackingModels.swift */; };
+		F97A0EE0920F4FDB892ADB3B /* Features/HSCodeSearch/HSCodeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15CC43879F54869A1DD6F78 /* Features/HSCodeSearch/HSCodeDetailView.swift */; };
+		FD21C26577F444DBBA42DB4B /* Core/Extensions/View+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3315212FC9E44B389512E689 /* Core/Extensions/View+RTL.swift */; };
+		FDE3AB6DA6534A6F8B58938B /* DifferenceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261840A0D40C4759B793CA45 /* DifferenceCalculatorTests.swift */; };
+		FF5B1DE6139544DE98A27C54 /* DesignSystem/Components/AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E8C553F7024614BAB41F2F /* DesignSystem/Components/AppButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4141425A574780BB29CB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F1FA4313734887BA2F6D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E280D6970A0042F69A4A7ACE;
+			remoteInfo = CustomsToolkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F545717BD34AF4BBCEFDF3 /* Localization/Resources/ar.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization/Resources/ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0B37EC3C85244E99B252DAB3 /* Models/RecentSearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RecentSearchItem.swift; sourceTree = "<group>"; };
+		133323BA21F24B10823F9697 /* Core/Utilities/ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Utilities/ClipboardService.swift; sourceTree = "<group>"; };
+		13695ED599B047839D67116F /* Services/AirCargoTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AirCargoTrackingService.swift; sourceTree = "<group>"; };
+		146EA50C75B74C49B52C3E8D /* Services/HSCodeCandidateExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HSCodeCandidateExtractor.swift; sourceTree = "<group>"; };
+		1ACEABCD84084CC48773DE7C /* Models/AirCargoTrackingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AirCargoTrackingModels.swift; sourceTree = "<group>"; };
+		1D0FAE550A914B569DBA6855 /* Features/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		1F7A17CF412B4013B339CF4D /* Features/Settings/ReferenceDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/ReferenceDataView.swift; sourceTree = "<group>"; };
+		25C25790650D4866A4548AAF /* Features/CargoBoard/CargoBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/CargoBoard/CargoBoardView.swift; sourceTree = "<group>"; };
+		261840A0D40C4759B793CA45 /* DifferenceCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceCalculatorTests.swift; sourceTree = "<group>"; };
+		2FE8660C963648C1AB98CE43 /* GoldPriceServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceServiceTests.swift; sourceTree = "<group>"; };
+		303C5DD2808B4D2CBF4F7643 /* DesignSystem/Tokens/AppTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Tokens/AppTypography.swift; sourceTree = "<group>"; };
+		316882367BF8493BB8841DAE /* Localization/Resources/en.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization/Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		320020C4B932494C8897F985 /* GoldPriceConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceConfigTests.swift; sourceTree = "<group>"; };
+		3315212FC9E44B389512E689 /* Core/Extensions/View+RTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Extensions/View+RTL.swift"; sourceTree = "<group>"; };
+		3348C01D20264D12B562EFBC /* Services/UnitConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/UnitConversionService.swift; sourceTree = "<group>"; };
+		38A514EB9C204361973D3E8D /* Features/SeaHome/SeaToolsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SeaHome/SeaToolsListView.swift; sourceTree = "<group>"; };
+		3A3E30DBF17746FD91E1B3A2 /* Services/GoldPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/GoldPriceService.swift; sourceTree = "<group>"; };
+		3D002785FB85431187D6A882 /* HSNormalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNormalizerTests.swift; sourceTree = "<group>"; };
+		4350D569BEDA440BB02FA0DB /* Features/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		4536A51E96E247EAAE965C64 /* DesignSystem/Components/AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppCard.swift; sourceTree = "<group>"; };
+		45DD3918A6AE4B5B983760F1 /* Storage/StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage/StorageService.swift; sourceTree = "<group>"; };
+		461D2F16AE914782B4EA321B /* Models/Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Currency.swift; sourceTree = "<group>"; };
+		4B46B895862D420FA6D5BC20 /* DesignSystem/Components/AppSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppSegmentedPicker.swift; sourceTree = "<group>"; };
+		4B7A221ADB094D15ABA18B28 /* HSCodeCandidateExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCodeCandidateExtractorTests.swift; sourceTree = "<group>"; };
+		4CE2EC561A2848F294AB8C38 /* DesignSystem/Components/AppSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppSectionHeader.swift; sourceTree = "<group>"; };
+		50B0CB10769749EC8F4EFC77 /* Features/DutyCalculator/DutyCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DutyCalculator/DutyCalculatorView.swift; sourceTree = "<group>"; };
+		51351D5BB1974558A3DD38A5 /* Features/AirCargoTracking/AirCargoTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AirCargoTracking/AirCargoTrackingViewModel.swift; sourceTree = "<group>"; };
+		515DAA04B796488F96A6D364 /* Features/HSCodeSearch/HSCodeSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/HSCodeSearch/HSCodeSearchViewModel.swift; sourceTree = "<group>"; };
+		54ECCD7EE3A84C9F8EFB2568 /* Models/ServiceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ServiceArea.swift; sourceTree = "<group>"; };
+		5695B349875D42FA8D941725 /* Models/DutyCalculatorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/DutyCalculatorModels.swift; sourceTree = "<group>"; };
+		5927E1F7AFB84462B4A585F2 /* Models/TariffValidationReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TariffValidationReport.swift; sourceTree = "<group>"; };
+		5A06C426E3A0464F9E3BC7FA /* Core/Config/AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Config/AppConfig.swift; sourceTree = "<group>"; };
+		5C71715EB7F4440C920B9C80 /* Services/DutyCalculatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/DutyCalculatorService.swift; sourceTree = "<group>"; };
+		5E8DE194ABC349389BDFF628 /* StorageServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageServiceTests.swift; sourceTree = "<group>"; };
+		64896288A2E04584BFC8DF1B /* AirCargoTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirCargoTrackingTests.swift; sourceTree = "<group>"; };
+		67A6F7A8A4074146A4243968 /* Features/Tools/ToolsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Tools/ToolsListView.swift; sourceTree = "<group>"; };
+		6ABC84205FA64BCE9E3F75FE /* DesignSystem/Tokens/AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Tokens/AppSpacing.swift; sourceTree = "<group>"; };
+		6BC9DFF2DF8341B8B869BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CAF2C92D26F490EB2F16020 /* DutyCalculatorServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyCalculatorServiceTests.swift; sourceTree = "<group>"; };
+		6DB4476846FE4DE988DAC2C5 /* Localization/Resources/ar.lproj/InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization/Resources/ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		758FD59F266A4DBCB537D6D8 /* App/CustomsToolkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/CustomsToolkitApp.swift; sourceTree = "<group>"; };
+		774A9445AD0F4270B4AE50D3 /* Features/HSCodeSearch/HSCodeCameraScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/HSCodeSearch/HSCodeCameraScannerView.swift; sourceTree = "<group>"; };
+		7C14ADA47A68440CA7BB97DB /* Features/GoldPrice/GoldPriceWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/GoldPrice/GoldPriceWebView.swift; sourceTree = "<group>"; };
+		7EB6209279E949CCA64B34ED /* Core/Extensions/Decimal+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Extensions/Decimal+Formatting.swift"; sourceTree = "<group>"; };
+		804ED28269DB44BBB4E5EF06 /* App/AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppState.swift; sourceTree = "<group>"; };
+		8314FE6BAADF4C7481F80331 /* Localization/Resources/en.lproj/InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization/Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		832F11E843CC4066AC65500D /* Features/SeaHome/SeaHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SeaHome/SeaHomeView.swift; sourceTree = "<group>"; };
+		8505F6DE4E134635B367B08F /* Services/TariffDatasetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/TariffDatasetLoader.swift; sourceTree = "<group>"; };
+		910B5273A32E41059D6A7038 /* Services/CurrencyConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/CurrencyConversionService.swift; sourceTree = "<group>"; };
+		91D5AE92B240431C8A558D2C /* CurrencyConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionTests.swift; sourceTree = "<group>"; };
+		9581FF2EE6014033BA4CCA60 /* Models/UnitConversionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/UnitConversionType.swift; sourceTree = "<group>"; };
+		978541AC2AF44D20BA4ACDA2 /* Features/AirCargoTracking/AirCargoTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AirCargoTracking/AirCargoTrackingView.swift; sourceTree = "<group>"; };
+		97DE5504AA6D4F9583163C5E /* Models/CalculationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/CalculationModels.swift; sourceTree = "<group>"; };
+		97F97EA752AD42A48F4F503D /* Core/Utilities/HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Utilities/HapticFeedback.swift; sourceTree = "<group>"; };
+		9B975E4773B54D7FABD44354 /* Features/PermitRequirements/PermitRequirementWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/PermitRequirements/PermitRequirementWebView.swift; sourceTree = "<group>"; };
+		9C103C41F8B146C2B9EF8A98 /* Services/HSNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HSNormalizer.swift; sourceTree = "<group>"; };
+		A114889DFF1E40E8A2E94A15 /* Resources/oman_tariff_2026.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/oman_tariff_2026.json; sourceTree = "<group>"; };
+		ABC877A7AB6746829E0AF96F /* Services/HSSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HSSearchService.swift; sourceTree = "<group>"; };
+		AEA8F1CE4AE34A34892BA485 /* TariffDatasetLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffDatasetLoaderTests.swift; sourceTree = "<group>"; };
+		AFE5931652F34E8CB9AAE8FE /* Localization/LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization/LanguageManager.swift; sourceTree = "<group>"; };
+		B23BAD5F47F34F3A9278F002 /* Features/ServiceSelection/ServiceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/ServiceSelection/ServiceSelectionView.swift; sourceTree = "<group>"; };
+		B5BFCD62247D4E2DAEAF2804 /* CustomsToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomsToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A1615E3CD94F6CA43DE646 /* Localization/LocalizedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization/LocalizedKeys.swift; sourceTree = "<group>"; };
+		BA1C676C8462486DB6A334EB /* Core/Utilities/DecimalMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Utilities/DecimalMath.swift; sourceTree = "<group>"; };
+		BA4D6E4AA0DC499497179357 /* DesignSystem/Tokens/AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Tokens/AppColors.swift; sourceTree = "<group>"; };
+		BD40ADB117034E1CB36E2EA6 /* Features/DifferenceCalculator/DifferenceCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DifferenceCalculator/DifferenceCalculatorViewModel.swift; sourceTree = "<group>"; };
+		BE17549EE78E469692812FF7 /* HSSearchServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSSearchServiceTests.swift; sourceTree = "<group>"; };
+		C09A00E7DEB040CCA404E2C4 /* DesignSystem/Components/AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppTextField.swift; sourceTree = "<group>"; };
+		C1B623E39A9C420DBA7F376B /* Features/Saved/SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Saved/SavedView.swift; sourceTree = "<group>"; };
+		C3785B082DA14EA6890086B8 /* DesignSystem/Components/AppEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppEmptyStateView.swift; sourceTree = "<group>"; };
+		C427C82BED554FCAAC71532A /* Features/DifferenceCalculator/DifferenceCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DifferenceCalculator/DifferenceCalculatorView.swift; sourceTree = "<group>"; };
+		C4954B79F8F14539A2ABAA34 /* Features/HSCodeSearch/HSCodeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/HSCodeSearch/HSCodeSearchView.swift; sourceTree = "<group>"; };
+		C5E2695CF2D84DA28D3AFDFC /* DesignSystem/Components/ToolGridCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/ToolGridCard.swift; sourceTree = "<group>"; };
+		C913F9E9B87344C0A8DE5F7B /* Services/AirCargoWebTrackingResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AirCargoWebTrackingResolver.swift; sourceTree = "<group>"; };
+		CCFA24A92FC241DCB53C2FF8 /* Features/UnitConverter/UnitConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/UnitConverter/UnitConverterView.swift; sourceTree = "<group>"; };
+		D116022807B54B51853D3406 /* Features/Main/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Main/MainTabView.swift; sourceTree = "<group>"; };
+		D789814993CE4B2F8B68D659 /* Features/UnitConverter/UnitConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/UnitConverter/UnitConverterViewModel.swift; sourceTree = "<group>"; };
+		D82F3E19CE6347C18F6C923E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2810AFDDE234613A3157A25 /* Services/DifferenceCalculatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/DifferenceCalculatorService.swift; sourceTree = "<group>"; };
+		E4B1ECB62E094EAAAFBE4414 /* Features/DutyCalculator/DutyCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DutyCalculator/DutyCalculatorViewModel.swift; sourceTree = "<group>"; };
+		E8F0472020E74233907D6FFD /* Models/HSCodeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/HSCodeItem.swift; sourceTree = "<group>"; };
+		EAF16C2BCF084FA3B2EAF310 /* Storage/CargoBoardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage/CargoBoardStore.swift; sourceTree = "<group>"; };
+		EF599993910942378975DC11 /* CustomsToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomsToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15CC43879F54869A1DD6F78 /* Features/HSCodeSearch/HSCodeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/HSCodeSearch/HSCodeDetailView.swift; sourceTree = "<group>"; };
+		F2E8C553F7024614BAB41F2F /* DesignSystem/Components/AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppButton.swift; sourceTree = "<group>"; };
+		F81FE384FC3942C3AEFB637A /* UnitConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionTests.swift; sourceTree = "<group>"; };
+		FFBB60ED5128470C8A5F9866 /* DesignSystem/Components/AppResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/Components/AppResultCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3010B267DE2544EB86EAA23F /* CustomsToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				64896288A2E04584BFC8DF1B /* AirCargoTrackingTests.swift */,
+				5E8DE194ABC349389BDFF628 /* StorageServiceTests.swift */,
+				2FE8660C963648C1AB98CE43 /* GoldPriceServiceTests.swift */,
+				3D002785FB85431187D6A882 /* HSNormalizerTests.swift */,
+				91D5AE92B240431C8A558D2C /* CurrencyConversionTests.swift */,
+				AEA8F1CE4AE34A34892BA485 /* TariffDatasetLoaderTests.swift */,
+				261840A0D40C4759B793CA45 /* DifferenceCalculatorTests.swift */,
+				D82F3E19CE6347C18F6C923E /* Info.plist */,
+				BE17549EE78E469692812FF7 /* HSSearchServiceTests.swift */,
+				F81FE384FC3942C3AEFB637A /* UnitConversionTests.swift */,
+				6CAF2C92D26F490EB2F16020 /* DutyCalculatorServiceTests.swift */,
+				4B7A221ADB094D15ABA18B28 /* HSCodeCandidateExtractorTests.swift */,
+				320020C4B932494C8897F985 /* GoldPriceConfigTests.swift */,
+			);
+			path = CustomsToolkitTests;
+			sourceTree = "<group>";
+		};
+		73183D39A2A4434CA4EC90FD = {
+			isa = PBXGroup;
+			children = (
+				9573075DF62B4AE4BBE483B1 /* CustomsToolkit */,
+				3010B267DE2544EB86EAA23F /* CustomsToolkitTests */,
+				9B423052A43E40FD8C5B75C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9573075DF62B4AE4BBE483B1 /* CustomsToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D6E4AA0DC499497179357 /* DesignSystem/Tokens/AppColors.swift */,
+				6ABC84205FA64BCE9E3F75FE /* DesignSystem/Tokens/AppSpacing.swift */,
+				303C5DD2808B4D2CBF4F7643 /* DesignSystem/Tokens/AppTypography.swift */,
+				FFBB60ED5128470C8A5F9866 /* DesignSystem/Components/AppResultCard.swift */,
+				C5E2695CF2D84DA28D3AFDFC /* DesignSystem/Components/ToolGridCard.swift */,
+				C3785B082DA14EA6890086B8 /* DesignSystem/Components/AppEmptyStateView.swift */,
+				F2E8C553F7024614BAB41F2F /* DesignSystem/Components/AppButton.swift */,
+				4B46B895862D420FA6D5BC20 /* DesignSystem/Components/AppSegmentedPicker.swift */,
+				C09A00E7DEB040CCA404E2C4 /* DesignSystem/Components/AppTextField.swift */,
+				4CE2EC561A2848F294AB8C38 /* DesignSystem/Components/AppSectionHeader.swift */,
+				4536A51E96E247EAAE965C64 /* DesignSystem/Components/AppCard.swift */,
+				3315212FC9E44B389512E689 /* Core/Extensions/View+RTL.swift */,
+				7EB6209279E949CCA64B34ED /* Core/Extensions/Decimal+Formatting.swift */,
+				97F97EA752AD42A48F4F503D /* Core/Utilities/HapticFeedback.swift */,
+				BA1C676C8462486DB6A334EB /* Core/Utilities/DecimalMath.swift */,
+				133323BA21F24B10823F9697 /* Core/Utilities/ClipboardService.swift */,
+				5A06C426E3A0464F9E3BC7FA /* Core/Config/AppConfig.swift */,
+				B9A1615E3CD94F6CA43DE646 /* Localization/LocalizedKeys.swift */,
+				AFE5931652F34E8CB9AAE8FE /* Localization/LanguageManager.swift */,
+				8314FE6BAADF4C7481F80331 /* Localization/Resources/en.lproj/InfoPlist.strings */,
+				316882367BF8493BB8841DAE /* Localization/Resources/en.lproj/Localizable.strings */,
+				6DB4476846FE4DE988DAC2C5 /* Localization/Resources/ar.lproj/InfoPlist.strings */,
+				09F545717BD34AF4BBCEFDF3 /* Localization/Resources/ar.lproj/Localizable.strings */,
+				461D2F16AE914782B4EA321B /* Models/Currency.swift */,
+				5695B349875D42FA8D941725 /* Models/DutyCalculatorModels.swift */,
+				54ECCD7EE3A84C9F8EFB2568 /* Models/ServiceArea.swift */,
+				5927E1F7AFB84462B4A585F2 /* Models/TariffValidationReport.swift */,
+				97DE5504AA6D4F9583163C5E /* Models/CalculationModels.swift */,
+				9581FF2EE6014033BA4CCA60 /* Models/UnitConversionType.swift */,
+				1ACEABCD84084CC48773DE7C /* Models/AirCargoTrackingModels.swift */,
+				E8F0472020E74233907D6FFD /* Models/HSCodeItem.swift */,
+				0B37EC3C85244E99B252DAB3 /* Models/RecentSearchItem.swift */,
+				9B975E4773B54D7FABD44354 /* Features/PermitRequirements/PermitRequirementWebView.swift */,
+				B23BAD5F47F34F3A9278F002 /* Features/ServiceSelection/ServiceSelectionView.swift */,
+				67A6F7A8A4074146A4243968 /* Features/Tools/ToolsListView.swift */,
+				BD40ADB117034E1CB36E2EA6 /* Features/DifferenceCalculator/DifferenceCalculatorViewModel.swift */,
+				C427C82BED554FCAAC71532A /* Features/DifferenceCalculator/DifferenceCalculatorView.swift */,
+				E4B1ECB62E094EAAAFBE4414 /* Features/DutyCalculator/DutyCalculatorViewModel.swift */,
+				50B0CB10769749EC8F4EFC77 /* Features/DutyCalculator/DutyCalculatorView.swift */,
+				38A514EB9C204361973D3E8D /* Features/SeaHome/SeaToolsListView.swift */,
+				832F11E843CC4066AC65500D /* Features/SeaHome/SeaHomeView.swift */,
+				51351D5BB1974558A3DD38A5 /* Features/AirCargoTracking/AirCargoTrackingViewModel.swift */,
+				978541AC2AF44D20BA4ACDA2 /* Features/AirCargoTracking/AirCargoTrackingView.swift */,
+				25C25790650D4866A4548AAF /* Features/CargoBoard/CargoBoardView.swift */,
+				7C14ADA47A68440CA7BB97DB /* Features/GoldPrice/GoldPriceWebView.swift */,
+				CCFA24A92FC241DCB53C2FF8 /* Features/UnitConverter/UnitConverterView.swift */,
+				D789814993CE4B2F8B68D659 /* Features/UnitConverter/UnitConverterViewModel.swift */,
+				515DAA04B796488F96A6D364 /* Features/HSCodeSearch/HSCodeSearchViewModel.swift */,
+				C4954B79F8F14539A2ABAA34 /* Features/HSCodeSearch/HSCodeSearchView.swift */,
+				774A9445AD0F4270B4AE50D3 /* Features/HSCodeSearch/HSCodeCameraScannerView.swift */,
+				F15CC43879F54869A1DD6F78 /* Features/HSCodeSearch/HSCodeDetailView.swift */,
+				D116022807B54B51853D3406 /* Features/Main/MainTabView.swift */,
+				4350D569BEDA440BB02FA0DB /* Features/Home/HomeView.swift */,
+				1F7A17CF412B4013B339CF4D /* Features/Settings/ReferenceDataView.swift */,
+				1D0FAE550A914B569DBA6855 /* Features/Settings/SettingsView.swift */,
+				C1B623E39A9C420DBA7F376B /* Features/Saved/SavedView.swift */,
+				45DD3918A6AE4B5B983760F1 /* Storage/StorageService.swift */,
+				EAF16C2BCF084FA3B2EAF310 /* Storage/CargoBoardStore.swift */,
+				A114889DFF1E40E8A2E94A15 /* Resources/oman_tariff_2026.json */,
+				804ED28269DB44BBB4E5EF06 /* App/AppState.swift */,
+				758FD59F266A4DBCB537D6D8 /* App/CustomsToolkitApp.swift */,
+				13695ED599B047839D67116F /* Services/AirCargoTrackingService.swift */,
+				5C71715EB7F4440C920B9C80 /* Services/DutyCalculatorService.swift */,
+				9C103C41F8B146C2B9EF8A98 /* Services/HSNormalizer.swift */,
+				E2810AFDDE234613A3157A25 /* Services/DifferenceCalculatorService.swift */,
+				C913F9E9B87344C0A8DE5F7B /* Services/AirCargoWebTrackingResolver.swift */,
+				3A3E30DBF17746FD91E1B3A2 /* Services/GoldPriceService.swift */,
+				ABC877A7AB6746829E0AF96F /* Services/HSSearchService.swift */,
+				146EA50C75B74C49B52C3E8D /* Services/HSCodeCandidateExtractor.swift */,
+				910B5273A32E41059D6A7038 /* Services/CurrencyConversionService.swift */,
+				8505F6DE4E134635B367B08F /* Services/TariffDatasetLoader.swift */,
+				3348C01D20264D12B562EFBC /* Services/UnitConversionService.swift */,
+				6BC9DFF2DF8341B8B869BAFB /* Assets.xcassets */,
+			);
+			path = CustomsToolkit;
+			sourceTree = "<group>";
+		};
+		9B423052A43E40FD8C5B75C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5BFCD62247D4E2DAEAF2804 /* CustomsToolkit.app */,
+				EF599993910942378975DC11 /* CustomsToolkitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E3B9A1FD6D4C96A3612FA4 /* CustomsToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860FBF589BB3492A93B6F349 /* Build configuration list for PBXNativeTarget "CustomsToolkitTests" */;
+			buildPhases = (
+				82401944FFDF4A9D9E6FFADB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B6C52912D4141FA88FD59F3 /* PBXTargetDependency */,
+			);
+			name = CustomsToolkitTests;
+			productName = CustomsToolkitTests;
+			productReference = EF599993910942378975DC11 /* CustomsToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E280D6970A0042F69A4A7ACE /* CustomsToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DB4BDC042E4FC98BABFB4D /* Build configuration list for PBXNativeTarget "CustomsToolkit" */;
+			buildPhases = (
+				92C67D0654554937AD3996DD /* Sources */,
+				14DE9625C154417DAB7B5762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomsToolkit;
+			productName = CustomsToolkit;
+			productReference = B5BFCD62247D4E2DAEAF2804 /* CustomsToolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F1FA4313734887BA2F6D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					40E3B9A1FD6D4C96A3612FA4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E280D6970A0042F69A4A7ACE;
+					};
+					E280D6970A0042F69A4A7ACE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2D37CE9C3717486A8A813B3A /* Build configuration list for PBXProject "CustomsToolkit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				Base,
+			);
+			mainGroup = 73183D39A2A4434CA4EC90FD;
+			productRefGroup = 9B423052A43E40FD8C5B75C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E280D6970A0042F69A4A7ACE /* CustomsToolkit */,
+				40E3B9A1FD6D4C96A3612FA4 /* CustomsToolkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DE9625C154417DAB7B5762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4962CF0476409A87DE03E1 /* Localization/Resources/en.lproj/InfoPlist.strings in Resources */,
+				5F6DCF436114429F85F69579 /* Localization/Resources/en.lproj/Localizable.strings in Resources */,
+				0EF72A70EFFF4FDBA9986BCB /* Localization/Resources/ar.lproj/InfoPlist.strings in Resources */,
+				623D587DF9C040D89A35C133 /* Localization/Resources/ar.lproj/Localizable.strings in Resources */,
+				A9BCE7C37CC5449AB26D352D /* Resources/oman_tariff_2026.json in Resources */,
+				E304A551CDF744EF81A4FC5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82401944FFDF4A9D9E6FFADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8321CCE95D84A9D946F0C7A /* AirCargoTrackingTests.swift in Sources */,
+				24A7A41588E0401387C5917C /* StorageServiceTests.swift in Sources */,
+				7CCAC550D0674CAE83544ACE /* GoldPriceServiceTests.swift in Sources */,
+				E67CC53CC37B4B9095AA49F1 /* HSNormalizerTests.swift in Sources */,
+				BDBDC54A5110468A9CD44668 /* CurrencyConversionTests.swift in Sources */,
+				DD5C7AC3CCC046BE8D6FA293 /* TariffDatasetLoaderTests.swift in Sources */,
+				FDE3AB6DA6534A6F8B58938B /* DifferenceCalculatorTests.swift in Sources */,
+				E10D137BA56C452E836F3717 /* HSSearchServiceTests.swift in Sources */,
+				E3134F0217FA41C59572F3B6 /* UnitConversionTests.swift in Sources */,
+				9562ED028A2F4373A1171635 /* DutyCalculatorServiceTests.swift in Sources */,
+				4FC5F7D0D736436BB6341276 /* HSCodeCandidateExtractorTests.swift in Sources */,
+				81CC5269D240438F8F98B4EC /* GoldPriceConfigTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C67D0654554937AD3996DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AABA7BB4864F109913D966 /* DesignSystem/Tokens/AppColors.swift in Sources */,
+				C655C49311DB45C1AF2661EB /* DesignSystem/Tokens/AppSpacing.swift in Sources */,
+				28BFA6B2853147E7A54447F5 /* DesignSystem/Tokens/AppTypography.swift in Sources */,
+				9D5E91157E5B4F97AECECEC7 /* DesignSystem/Components/AppResultCard.swift in Sources */,
+				463C95F79851470F953B873A /* DesignSystem/Components/ToolGridCard.swift in Sources */,
+				837E83BE4A7D48BF9C8B29BF /* DesignSystem/Components/AppEmptyStateView.swift in Sources */,
+				FF5B1DE6139544DE98A27C54 /* DesignSystem/Components/AppButton.swift in Sources */,
+				3BB0B4200D4F4131A35EACE8 /* DesignSystem/Components/AppSegmentedPicker.swift in Sources */,
+				D9205440EE2147ABB3C67DDD /* DesignSystem/Components/AppTextField.swift in Sources */,
+				97AD74DD0A554DBDA0D88BF6 /* DesignSystem/Components/AppSectionHeader.swift in Sources */,
+				434E823C93924700A58C15CC /* DesignSystem/Components/AppCard.swift in Sources */,
+				FD21C26577F444DBBA42DB4B /* Core/Extensions/View+RTL.swift in Sources */,
+				B921F76D0B1F47938BE49460 /* Core/Extensions/Decimal+Formatting.swift in Sources */,
+				DC5FF7A3512041F1AC17CC02 /* Core/Utilities/HapticFeedback.swift in Sources */,
+				374DE91D30574C0284E8A907 /* Core/Utilities/DecimalMath.swift in Sources */,
+				50E0CCA122284F01848E5DE5 /* Core/Utilities/ClipboardService.swift in Sources */,
+				9E20DF2AF0314174AC3D11C1 /* Core/Config/AppConfig.swift in Sources */,
+				BCD3D9B7CE3E4CB2B044A91E /* Localization/LocalizedKeys.swift in Sources */,
+				0B2087FD28174C67A25A8C77 /* Localization/LanguageManager.swift in Sources */,
+				88DA221B27D64AAFA29B9177 /* Models/Currency.swift in Sources */,
+				75BDB76B334046DDB853AC21 /* Models/DutyCalculatorModels.swift in Sources */,
+				2A5BC233CDF64DB39CB6DDEB /* Models/ServiceArea.swift in Sources */,
+				82D1C816EDDA4CAA8E9D313B /* Models/TariffValidationReport.swift in Sources */,
+				043CF2027B8C4CBA98176793 /* Models/CalculationModels.swift in Sources */,
+				B2AA02254C3B459AA1BF89A4 /* Models/UnitConversionType.swift in Sources */,
+				F65B30DDC11F45C9B22A966F /* Models/AirCargoTrackingModels.swift in Sources */,
+				22308B9A22B34AC49CAF20B9 /* Models/HSCodeItem.swift in Sources */,
+				2586C949A0D9489D9743FAAD /* Models/RecentSearchItem.swift in Sources */,
+				854B29C2DCF042919A044C15 /* Features/PermitRequirements/PermitRequirementWebView.swift in Sources */,
+				193B311962574E449A836442 /* Features/ServiceSelection/ServiceSelectionView.swift in Sources */,
+				C2EE83A95D4D4DACB289F3F3 /* Features/Tools/ToolsListView.swift in Sources */,
+				8DA7BF1AE2B949B7B029482C /* Features/DifferenceCalculator/DifferenceCalculatorViewModel.swift in Sources */,
+				F0EA848887F74A91803EF725 /* Features/DifferenceCalculator/DifferenceCalculatorView.swift in Sources */,
+				C02343179C72458E936D1333 /* Features/DutyCalculator/DutyCalculatorViewModel.swift in Sources */,
+				A1659BDB329447649EDE1D87 /* Features/DutyCalculator/DutyCalculatorView.swift in Sources */,
+				6B8F3B62914344C7ADFC10D6 /* Features/SeaHome/SeaToolsListView.swift in Sources */,
+				D40C7ED0F2BD49FB8C90F720 /* Features/SeaHome/SeaHomeView.swift in Sources */,
+				54FF3EFFCF924FE0B14B1066 /* Features/AirCargoTracking/AirCargoTrackingViewModel.swift in Sources */,
+				777F229AF21747A1826A5B02 /* Features/AirCargoTracking/AirCargoTrackingView.swift in Sources */,
+				50F686A46DCC4B3DA71E29A4 /* Features/CargoBoard/CargoBoardView.swift in Sources */,
+				5828436D5F224B25B22493A6 /* Features/GoldPrice/GoldPriceWebView.swift in Sources */,
+				67174BF7D3C144CC8246A424 /* Features/UnitConverter/UnitConverterView.swift in Sources */,
+				A581983FF6A74513A8781C0D /* Features/UnitConverter/UnitConverterViewModel.swift in Sources */,
+				8473DF9FBEC94D708FE9847A /* Features/HSCodeSearch/HSCodeSearchViewModel.swift in Sources */,
+				56AE73F3B6A24B0DB90BD0E2 /* Features/HSCodeSearch/HSCodeSearchView.swift in Sources */,
+				EE91B0C9109C458A84389FBB /* Features/HSCodeSearch/HSCodeCameraScannerView.swift in Sources */,
+				F97A0EE0920F4FDB892ADB3B /* Features/HSCodeSearch/HSCodeDetailView.swift in Sources */,
+				D16CD582B44441C2BC87D406 /* Features/Main/MainTabView.swift in Sources */,
+				0202A12B05C64636909EEED0 /* Features/Home/HomeView.swift in Sources */,
+				CF33A5A98A564221B0FC5FE0 /* Features/Settings/ReferenceDataView.swift in Sources */,
+				52F80BE7C098482294C83114 /* Features/Settings/SettingsView.swift in Sources */,
+				04E7910D8BC1472C8B5B0564 /* Features/Saved/SavedView.swift in Sources */,
+				DA5EE406EB9749B28BB336F1 /* Storage/StorageService.swift in Sources */,
+				C0E9B53392474741AC26C087 /* Storage/CargoBoardStore.swift in Sources */,
+				F13E451509B24FC38A4EE844 /* App/AppState.swift in Sources */,
+				F06CCAA2365C4AC08CAD964C /* App/CustomsToolkitApp.swift in Sources */,
+				5AB6578F372D4C8FA6801BF9 /* Services/AirCargoTrackingService.swift in Sources */,
+				E98515BD76CA497DB2CBA6B0 /* Services/DutyCalculatorService.swift in Sources */,
+				242FE84196744AE8935F65EA /* Services/HSNormalizer.swift in Sources */,
+				13F37A82BFA343B988107B78 /* Services/DifferenceCalculatorService.swift in Sources */,
+				3D0257527A4A445281463E27 /* Services/AirCargoWebTrackingResolver.swift in Sources */,
+				F42B8199222744BDA9F49B87 /* Services/GoldPriceService.swift in Sources */,
+				B50B438E00DF4CB999F2A2A3 /* Services/HSSearchService.swift in Sources */,
+				11FD42E6BE9148758228EC61 /* Services/HSCodeCandidateExtractor.swift in Sources */,
+				7FE8337215B14B3DBB1AB23E /* Services/CurrencyConversionService.swift in Sources */,
+				7A338445B41E431B8D01DB3A /* Services/TariffDatasetLoader.swift in Sources */,
+				CA3B5FB4848C49F795261DA7 /* Services/UnitConversionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B6C52912D4141FA88FD59F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E280D6970A0042F69A4A7ACE /* CustomsToolkit */;
+			targetProxy = CD4141425A574780BB29CB33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52DFA4996AA04CAE957AAFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK7R8A4WRY;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CustomsToolkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customstoolkit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57C150AF895C4030BA110C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CustomsToolkitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customstoolkit.appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomsToolkit.app/CustomsToolkit";
+			};
+			name = Release;
+		};
+		6B6BCCD19790446D891D59F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73F625487CCC4D96903C8D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D88210B5F824609B1EE6CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK7R8A4WRY;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CustomsToolkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customstoolkit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87057EFFBD45458497075808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CustomsToolkitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customstoolkit.appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomsToolkit.app/CustomsToolkit";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D37CE9C3717486A8A813B3A /* Build configuration list for PBXProject "CustomsToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F625487CCC4D96903C8D19 /* Debug */,
+				6B6BCCD19790446D891D59F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860FBF589BB3492A93B6F349 /* Build configuration list for PBXNativeTarget "CustomsToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87057EFFBD45458497075808 /* Debug */,
+				57C150AF895C4030BA110C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DB4BDC042E4FC98BABFB4D /* Build configuration list for PBXNativeTarget "CustomsToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D88210B5F824609B1EE6CEC /* Debug */,
+				52DFA4996AA04CAE957AAFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F1FA4313734887BA2F6D02 /* Project object */;
+}

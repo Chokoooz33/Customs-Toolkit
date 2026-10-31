@@ -1,0 +1,27 @@
+{
+  "version": "4.3.7",
+  "scope": "Air India Cargo 098 only, plus Track-Trace fallback submit behavior",
+  "official_url": "https://aicargoportal.airindia.com/icargoneoportal/app/main/#/app",
+  "verified_from_user_log": {
+    "field": "#shipmentValue",
+    "input_shape": "full 11-digit AWB",
+    "example_awb": "09831842230",
+    "submit_action": "Next",
+    "previous_bug": "generic selector chose the Track Shipments tab instead of Next"
+  },
+  "changes": [
+    "direct exact iCargo hash route",
+    "wait for hydrated shipmentValue input",
+    "full AWB entry",
+    "exact Next button selection",
+    "Air India AWB Activity Timeline result detection",
+    "Air India official event parser",
+    "Track-Trace Track * fallback handling"
+  ],
+  "checks": {
+    "swift_frontend_parse_files": 80,
+    "embedded_javascript_node_check": "pass",
+    "zip_integrity": "pending until archive creation"
+  },
+  "live_device_confirmation": false
+}
